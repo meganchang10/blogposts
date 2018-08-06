@@ -12,7 +12,7 @@ Each article object will have a JSON response that looks like:
   "date-created" : 06/27/2018
 }
 
-Authorized users can use the API to create a new article, update an existing one, or delete an existing one. All users can use the API to read the articles. The website (insert website) will use this API to pull and display all the articles.
+Authorized users can use the API to create a new article, update an existing one, or delete an existing one. To become an authorized user, contact meganchang10@gmail.com. All users can use the API to read articles. The website (insert website) will use this API to pull and display all the articles in the database.
 
 
 ## Prerequisites
@@ -20,3 +20,5 @@ To begin, you will need to download the following software:
 
 Congratulations, the website should now be available for viewing at http://localhost:8000/articles/
 
+## Technical Stack
+Golang
